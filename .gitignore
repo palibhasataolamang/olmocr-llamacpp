@@ -1,0 +1,14 @@
+# Environments & cache
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Large model files & logs
+models/
+*.gguf
+*.log
+
+# Generated OCR output files, but keep repository documentation
+*.md
+!README.md
